@@ -12,9 +12,6 @@ sbit beep = P3^6;
 
 void delay_ms(unsigned char i);
 
-//P0 = 0xFE;
-//led = 0xFE;
-
 void main()
 {
 	  while(1)
